@@ -1,26 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comecando dom</title>
-    <style>
-        body { background-color: black;color: crimson;}
-    </style>
+    <title></title>
 </head>
-<body>
-   <h1>dom</h1>
-   <p>aqui vai o resultado</p>
+<style>
+    div#area{
+        background-color: goldenrod;
+        color:green;
+        width: 20;
+        height: 20;
+        line-height: 20;
+        text-align: center;
+    }
+    body{
+        background-color: black;
+        color: crimson;
+        height: auto;
+        width: auto;
 
-   <div id="msg"> clique em min</div>
-   <script>
-    var p1=window.document.getElementsByTagName('p')[0]
-    window.document.write(p1.innerText)
-    var d = window.document.getElementById('msg')//op antiga
-    d.style.background ='green'
-    var e =window.document.querySelector('p')// op nova
-e.style.color='white'
-   </script>
+    }
+
+</style>
+<body>
+    <div id="area" onmouseonclick='clicar',()onmouseenter='entrar()'onmouseout='sair'()>
+        intereja
+        entrou
+        saiu
+    </div>
+    <title>
+        dom
+    </title>
+
+    <p1>um </p1>
+    <p2>dois</p2>
+<script> 
+var a=window.document.getElementById('area')
+a.addEventListener('click',clicar)
+a.addEventListener('mouseenter',entrar)
+a.addEventListener(saiu)
+
+function clicar(){
+    a.innerText='clicar'
+}
+function entrar (){
+    a.innerText='entrou'
+}
+function sair(){
+    a.innerText='saiu'
+}
+</script>
 </body>
 </html>
