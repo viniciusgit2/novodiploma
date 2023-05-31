@@ -1,0 +1,22 @@
+body{
+background-color: black;
+color: crimson;
+}
+header{
+background-color: gold;
+color: black;
+}
+section{
+    background-color: whitesmoke;
+    color: darkorchid;
+    border-radius: 10px;
+    padding: 15;
+    margin: auto;
+    box-shadow: 5px 5px 5px black;
+}
+footer{
+    background-color: green;
+    color: white;
+    font-style:italic
+
+}
