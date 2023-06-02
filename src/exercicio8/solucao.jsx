@@ -7,9 +7,9 @@ var hora= data2.getHours()
 var msg=window.document.getElementById('msg')
 var hora=new Date()
 var relogio= hora.getHours() 
-msg.innerHTML=`agora é pra ser ${relogio} `,
-//ele junta os 2 mas funciona
-msg.innerHTML=`agora é pra ser ${minuto} `
+msg.innerHTML=`agora é pra ser ${relogio} `
+
+
 if (relogio<12){
     foto.src="../../public/base manha.png"
     }
