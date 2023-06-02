@@ -13,3 +13,4 @@ console.log(`agora sâo ${hora}`)
 // 7 sabado
 var semana =agora.getDay()
 console .log(semana)
+
