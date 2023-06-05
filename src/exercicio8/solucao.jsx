@@ -6,8 +6,8 @@ var hora= data2.getHours()
 var msg=window.document.getElementById('msg')
 var hora=new Date()
 var relogio= hora.getHours() 
-msg.innerHTML=`agora é pra ser ${relogio} `
-var ver=Date()
+msg.innerHTML=`agora é pra ser ${hora} `
+
 if(ver.length==0 -Number (ver)){
     window.alert("verifique os dados")
 
@@ -34,7 +34,4 @@ if (relogio<12){
     foto.src="../../public/base noite.png"
     }
     
-}
-function carregar2(){
-
 }
